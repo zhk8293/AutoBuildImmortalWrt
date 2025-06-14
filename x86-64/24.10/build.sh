@@ -40,10 +40,8 @@ PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
-PACKAGES="$PACKAGES luci-app-natfrp luci-app-store luci-i18n-msd_lite-zh-cn luci-i18n-nikki-zh-cn luci-i18n-quickstart-zh-cn luci-lib-taskd luci-lib-xterm"
-PACKAGES="$PACKAGES app-meta-aria2 app-meta-hd-idle app-meta-istoreenhance app-meta-lucky app-meta-poweroff app-meta-routerdog app-meta-systools"
-PACKAGES="$PACKAGES bash ffmpeg-remux gdisk linkmount losetup resize2fs wget-ssl whiptail zsh"
-
+PACKAGES="$PACKAGES luci-i18n-msd_lite-zh-cn bash gdisk losetup resize2fs wget-ssl whiptail zsh"
+#PACKAGES="$PACKAGES luci-app-natfrp luci-app-store luci-i18n-nikki-zh-cn luci-i18n-quickstart-zh-cn luci-lib-taskd luci-lib-xterm app-meta-aria2 app-meta-hd-idle app-meta-istoreenhance app-meta-lucky app-meta-poweroff app-meta-routerdog app-meta-systools ffmpeg-remux linkmount"
 
 
 # 判断是否需要编译 Docker 插件
