@@ -28,8 +28,9 @@ else
   # 同步第三方软件仓库run/apk
   echo "🔄 正在同步第三方软件仓库 Cloning run file repo..."
   git clone --depth=1 https://github.com/wukongdaily/apk.git /tmp/store-apk-repo
+  ls -lah /tmp/store-apk-repo/run/x86
   git clone --depth=1 https://github.com/zhk8293/apk.git /tmp/store-apk-repo
-  ls -lah /tmp/store-apk-repo
+  ls -lah /tmp/store-apk-repo/run/x86
   # 拷贝 run/x86 下所有 run 文件和apk文件 到 extra-packages 目录
   mkdir -p /home/build/immortalwrt/extra-packages
   cp -r /tmp/store-apk-repo/run/x86/* /home/build/immortalwrt/extra-packages/
