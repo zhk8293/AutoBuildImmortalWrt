@@ -4,6 +4,7 @@
 # ============= 但此文件也可以处理仓库内的软件去留 本质上是做了一个PACKAGES字符串的拼接 ================
 
 # 各位注意 如果你构建的固件是硬路由 此文件的注释要酌情考虑是否打开 因为硬路由的闪存空间有限 若构建出来过大或者构建失败 记得调整本文件的注释
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-rtp2httpd-zh-cn"
 # 极光主题 by github eamonxg
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-theme-aurora"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-aurora-config-zh-cn"
